@@ -31,7 +31,6 @@ class Course {
     }
 }
 
-// Class to represent an Assessment
 class Assessment {
     private String assessmentTitle;
     private String description;
@@ -50,7 +49,6 @@ class Assessment {
     }
 }
 
-// Class to represent Feedback given by students
 class Feedback {
     private String studentName;
     private String feedbackText;
@@ -66,7 +64,6 @@ class Feedback {
     }
 }
 
-// Main School Management System Class
 public class SchoolManagement {
     private List<Course> courses;
     
